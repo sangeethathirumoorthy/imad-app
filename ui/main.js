@@ -16,15 +16,15 @@ img.onclick=function(){
    var interval=setInterval(moveRight,50);
 };*/
 //programtoincrement the counter using the span
-var button=document.getElementById("counter");
+/*var button=document.getElementById("counter");
 var counter=0;
 button.onclick=function()
 {
     counter=counter+1;
     var span=document.getElementById("count");
     span.innerHTML=counter.toString();
-}
-/*var button=document.getElementById("counter");
+}*/
+var button=document.getElementById("counter");
 button.onclick=function()
 {  //create a request to the counter endpoint
     var request=new XMLHttpRequest();
@@ -46,4 +46,4 @@ button.onclick=function()
  request.open('GET',"http://tsangeetha.imad.hasura-app.io/counter",true);
  request.send(null);
    
-   };*/
+   };
