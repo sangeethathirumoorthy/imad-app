@@ -24,7 +24,7 @@ button.onclick=function()
     var span=document.getElementById("count");
     span.innerHTML=counter.toString();
 }
-var button1=document.getElementById("counter");
+/*var button1=document.getElementById("counter");
 button1.onclick=function()
 {  //create a request to the counter endpoint
     var request=new XMLHttpRequest();
@@ -46,4 +46,4 @@ button1.onclick=function()
  request.open('GET','http://tsangeetha.imad.hasura-app.io/counter',true);
  request.send(null);
    
-   };
+   };*/
