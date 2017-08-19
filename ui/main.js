@@ -24,8 +24,8 @@ button.onclick=function()
     var span=document.getElementById("count");
     span.innerHTML=counter.toString();
 }*/
-var button=document.getElementById("counter");
-button.onclick=function()
+var button1=document.getElementById("counter");
+button1.onclick=function()
 {  //create a request to the counter endpoint
     var request=new XMLHttpRequest();
     
