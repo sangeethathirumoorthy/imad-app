@@ -43,7 +43,7 @@ button.onclick=function()
            }
        }
     };
- request.open('GET',"https://tsangeetha.imad.hasura-app.io/",true);
+ request.open('GET',"http://tsangeetha.imad.hasura-app.io/",true);
  request.send(null);
    
    };
